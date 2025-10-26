@@ -1,16 +1,24 @@
-# labut_game
+Labut Daily Game
 
-A new Flutter project.
+A lightweight, daily, single-attempt puzzle for the YurtPal app.
+Each day generates a deterministic but random-looking arrangement of colored pins (“labuts”).
+Players swap two pins to match the hidden target. Progress updates live. The board is solvable by swaps only, and today’s puzzle can be played once per device.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Gameplay : docs/screenshotgame.png
+
+Solved state: docs/screenshotsolved.png
+
+💻 Tech Stack
+
+Flutter (stable channel)
+
+State management: Cubit (flutter_bloc)
+
+Local persistence: SharedPreferences
+
+No backend required (can be added later for server-authoritative daily/leaderboards)
