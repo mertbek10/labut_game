@@ -1,17 +1,17 @@
-🎳 Labut Daily Game
+# 🎳Labut Daily Game
 
 A lightweight, daily, single-attempt puzzle for the YurtPal app.
 Each day generates a deterministic but random-looking arrangement of colored pins (“labuts”).
 Players swap two pins to match the hidden target. Progress updates live. The board is solvable by swaps only, and today’s puzzle can be played once per device.
 
 
-📸 Screenshots
+### 📸 Screenshots
 
 Gameplay : docs/screenshotgame.png
 
 Solved state: docs/screenshotsolved.png
 
-💻 Tech Stack
+### 💻 Tech Stack
 
 Flutter (stable channel)
 
